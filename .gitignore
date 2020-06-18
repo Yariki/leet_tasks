@@ -1,3 +1,6 @@
 /.idea
 bin/
 obj/
+/LeetCode.sln.DotSettings.user
+/.vscode
+/.vs
