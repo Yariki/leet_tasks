@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace LeetcodeTasks.PlusOne
 {
-    public class PlusOneTests
+    public class PlusOneTests : BaseTest
     {
         [Test]
         public void FirstCase_Success()
@@ -108,20 +108,7 @@ namespace LeetcodeTasks.PlusOne
 
 
 
-        private bool CheckArrayEquality(int[] expected, int[] result)
-        {
-            if (expected.Length != result.Length)
-                return false;
-
-
-            for (int i = 0; i < expected.Length; i++)
-            {
-                if (expected[i] != result[i])
-                    return false;
-            }
-
-            return true;
-        }
+        
         
     }
 }
