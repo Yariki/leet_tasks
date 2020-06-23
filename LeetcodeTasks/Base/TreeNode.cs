@@ -1,4 +1,4 @@
-﻿namespace LeetcodeTasks.SameTree
+﻿namespace LeetcodeTasks.Base
 {
     public class TreeNode
     {
@@ -11,5 +11,8 @@
             this.left = left;
             this.right = right;
         }
+
+        public bool IsLeaf => left == null && right == null;
+
     }
 }

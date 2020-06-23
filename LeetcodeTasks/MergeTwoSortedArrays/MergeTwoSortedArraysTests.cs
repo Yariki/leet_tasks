@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using LeetcodeTasks.Base;
+using NUnit.Framework;
 
 namespace LeetcodeTasks.MergeTwoSortedArrays
 {

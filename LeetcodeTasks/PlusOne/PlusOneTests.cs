@@ -1,4 +1,5 @@
 using System;
+using LeetcodeTasks.Base;
 using NUnit.Framework;
 
 namespace LeetcodeTasks.PlusOne

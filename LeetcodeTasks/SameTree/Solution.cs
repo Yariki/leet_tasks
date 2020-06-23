@@ -1,4 +1,6 @@
-﻿namespace LeetcodeTasks.SameTree
+﻿using LeetcodeTasks.Base;
+
+namespace LeetcodeTasks.SameTree
 {
     public class Solution
     {

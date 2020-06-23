@@ -1,4 +1,4 @@
-﻿namespace LeetcodeTasks
+﻿namespace LeetcodeTasks.Base
 {
     public class BaseTest
     {
