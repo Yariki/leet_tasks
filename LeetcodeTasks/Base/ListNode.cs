@@ -1,4 +1,4 @@
-namespace LeetcodeTasks.MergeTwoSortedLinkedLists
+namespace LeetcodeTasks.Base
 {
     public class ListNode
     {
