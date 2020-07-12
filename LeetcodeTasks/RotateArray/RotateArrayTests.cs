@@ -28,7 +28,7 @@ namespace LeetcodeTasks.RotateArray
 
             Assert.True(CheckArrayEquality(new int[] {3,99,-1,-100}, arr));
         }
-
+        //===================================================================================
         [Test]
         public void RotateFirstArray_SecondApproach_Success()
         {
@@ -40,5 +40,44 @@ namespace LeetcodeTasks.RotateArray
 
             Assert.True(CheckArrayEquality(new int[] {5, 6, 7, 1, 2, 3, 4}, arr));
         }
+        //=======================================================================================
+        [Test]
+        public void RotateSmallArray_Success()
+        {
+            var arr = new int[] {-1};
+            var steps = 2;
+            var rotate = new RotateArray(arr, steps);
+            rotate.PerformRotationWithAdditionalSpace();
+
+            Assert.True(CheckArrayEquality(new int[] {-1}, arr));
+        }
+
+        //==========================================================================================
+
+
+        [Test]
+        public void RotateFirstArray_Cyclic_Success()
+        {
+            var arr = new int[] {1, 2, 3, 4, 5, 6, 7};
+            var steps = 3;
+            var rotate = new RotateArray(arr, steps);
+            rotate.PerformRotationWithCyclicRotation();
+
+
+            Assert.True(CheckArrayEquality(new int[] {5, 6, 7, 1, 2, 3, 4}, arr));
+        }
+
+        [Test]
+        public void RotateSecondArray_Cyclic_Success()
+        {
+            var arr = new int[] {-1, -100, 3, 99};
+            var steps = 2;
+            var rotate = new RotateArray(arr, steps);
+            rotate.PerformRotationWithCyclicRotation();
+
+
+            Assert.True(CheckArrayEquality(new int[] {3, 99, -1, -100}, arr));
+        }
+
     }
 }
