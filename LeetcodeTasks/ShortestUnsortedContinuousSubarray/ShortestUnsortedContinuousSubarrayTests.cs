@@ -54,6 +54,16 @@ namespace LeetcodeTasks.ShortestUnsortedContinuousSubarray
             
             Assert.AreEqual(4,result);
         }
+
+        [Test]
+        public void FifthArray_Success()
+        {
+            int[] arr = new int[]{2,3,3,2,4};
+            var sol = new Solution();
+            var result = sol.FindUnsortedSubarray(arr);
+            
+            Assert.AreEqual(3,result);
+        }
         
     }
 }
