@@ -1,4 +1,4 @@
-﻿namespace LeetcodeTasks.CamPlaceFlowers
+﻿namespace LeetcodeTasks.CanPlaceFlowers
 {
     public class Solution
     {
