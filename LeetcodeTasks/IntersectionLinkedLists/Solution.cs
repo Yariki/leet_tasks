@@ -7,7 +7,7 @@ namespace LeetcodeTasks.IntersectionLinkedLists
         public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
             var sol = new IntersectionLinkedLists(headA, headB);
-            return sol.GetIntersectionNode();
+            return sol.GetIntersectionNode2();
         }
     }
 }
