@@ -1,10 +1,8 @@
-package com.fruitfactory.stringanagram;
+package com.fruitfactory.slidingwindow.stringanagram;
 
 
-import com.fruitfactory.permutation.StringPermutation;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;

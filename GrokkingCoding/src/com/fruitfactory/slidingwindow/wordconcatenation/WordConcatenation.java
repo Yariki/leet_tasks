@@ -1,4 +1,4 @@
-package com.fruitfactory.wordconcatenation;
+package com.fruitfactory.slidingwindow.wordconcatenation;
 
 import java.util.ArrayList;
 import java.util.HashMap;

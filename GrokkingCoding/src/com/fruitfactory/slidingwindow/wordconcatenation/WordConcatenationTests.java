@@ -1,4 +1,4 @@
-package com.fruitfactory.wordconcatenation;
+package com.fruitfactory.slidingwindow.wordconcatenation;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

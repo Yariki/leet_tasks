@@ -1,7 +1,6 @@
-package com.fruitfactory.permutation;
+package com.fruitfactory.slidingwindow.permutation;
 
 import java.util.HashMap;
-import java.util.IdentityHashMap;
 import java.util.Map;
 
 

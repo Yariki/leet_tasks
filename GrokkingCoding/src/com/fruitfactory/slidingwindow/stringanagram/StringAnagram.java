@@ -1,4 +1,4 @@
-package com.fruitfactory.stringanagram;
+package com.fruitfactory.slidingwindow.stringanagram;
 
 import java.util.ArrayList;
 import java.util.HashMap;

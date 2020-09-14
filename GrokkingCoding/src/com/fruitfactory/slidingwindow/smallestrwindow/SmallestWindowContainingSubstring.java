@@ -1,7 +1,4 @@
-package com.fruitfactory.smallestrwindow;
-
-import javafx.util.Pair;
-import org.omg.CORBA.INTERNAL;
+package com.fruitfactory.slidingwindow.smallestrwindow;
 
 import java.util.HashMap;
 import java.util.Map;
