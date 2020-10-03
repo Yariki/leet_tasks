@@ -1,11 +1,10 @@
 package com.fruitfactory.slidingwindow.stringanagram;
 
-
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 public class StringAnagramTests {
 
@@ -15,8 +14,8 @@ public class StringAnagramTests {
         List<Integer> result = perm.findStringAnagrams("ppqp","pq");
 
         assertEquals(2, result.size());
-        assertEquals(1,result.get(0));
-        assertEquals(2,result.get(1));
+        assertEquals(1,result.get(0).intValue());
+        assertEquals(2,result.get(1).intValue());
     }
 
     @Test
@@ -25,9 +24,9 @@ public class StringAnagramTests {
         List<Integer> result = perm.findStringAnagrams("abbcabc","abc");
 
         assertEquals(3, result.size());
-        assertEquals(2,result.get(0));
-        assertEquals(3,result.get(1));
-        assertEquals(4,result.get(2));
+        assertEquals(2,result.get(0).intValue());
+        assertEquals(3,result.get(1).intValue());
+        assertEquals(4,result.get(2).intValue());
 
     }
 

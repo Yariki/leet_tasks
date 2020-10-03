@@ -1,12 +1,8 @@
 package com.fruitfactory.twopointers.quadruple;
 
-import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class QuadrupleSumTargetTests {
 
