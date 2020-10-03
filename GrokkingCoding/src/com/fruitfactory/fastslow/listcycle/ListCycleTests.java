@@ -1,4 +1,4 @@
-package com.fruitfactory.fastslow.ListCycle;
+package com.fruitfactory.fastslow.listcycle;
 
 import com.fruitfactory.fastslow.ListNode;
 import org.junit.Test;
