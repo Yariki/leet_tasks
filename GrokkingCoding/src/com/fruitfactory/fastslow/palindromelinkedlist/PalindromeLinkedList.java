@@ -1,6 +1,6 @@
 package com.fruitfactory.fastslow.palindromelinkedlist;
 
-import com.fruitfactory.fastslow.ListNode;
+import com.fruitfactory.fastslow.*;
 
 import java.awt.*;
 
