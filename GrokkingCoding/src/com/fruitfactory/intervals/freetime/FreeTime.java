@@ -1,4 +1,4 @@
-package com.fruitfactory.intervals;
+package com.fruitfactory.intervals.freetime;
 
 
 import java.util.ArrayList;
@@ -44,10 +44,8 @@ public class FreeTime {
             if(previousInterval.end < queueTop.interval.start){
                 result.add(new IntervalE(previousInterval.end, queueTop.interval.start));
                 previousInterval= queueTop.interval;
-            } else {
-                if(previousInterval.end < queueTop.interval.end){
+            } else if(previousInterval.end < queueTop.interval.end) {
                     previousInterval = queueTop.interval;
-                }
             }
             List<IntervalE> employeeSchedule = schedule.get(queueTop.employeeIndex);
             if(employeeSchedule.size() > queueTop.intervalIndex + 1){
