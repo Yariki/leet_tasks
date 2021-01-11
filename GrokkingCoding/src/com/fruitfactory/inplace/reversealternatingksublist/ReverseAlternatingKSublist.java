@@ -10,7 +10,7 @@ public class ReverseAlternatingKSublist {
         }
 
         ListNode current = head, previous = null;
-        while(true){
+        while(current != null){
             ListNode lastNodeOfPreviousPart= previous;
             ListNode lastNodeOFSublist = current;
             ListNode next = null;
@@ -21,7 +21,6 @@ public class ReverseAlternatingKSublist {
                 current = next;
             }
 
-
             if(lastNodeOfPreviousPart != null){
                 lastNodeOfPreviousPart.next = previous;
             }else{
@@ -30,16 +29,10 @@ public class ReverseAlternatingKSublist {
 
             lastNodeOFSublist.next = current;
 
-            previous = lastNodeOFSublist;
-
-            for (int i = 0; current != null && i < k; i++) {
-                current = current.next;
+            for (int i = 0; current != null && i < k; ++i) {
                 previous = current;
+                current = current.next;
             }
-
-            if(current == null)
-                break;
-
         }
 
         return head;
