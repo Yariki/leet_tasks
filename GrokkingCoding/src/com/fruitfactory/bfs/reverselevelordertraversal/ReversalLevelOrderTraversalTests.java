@@ -12,7 +12,7 @@ public class ReversalLevelOrderTraversalTests {
 
 
     @Test
-    public void ReverseLEvelOrderTraverseTests(){
+    public void ReverseLevelOrderTraverseTests(){
         TreeNode root = prepareTree();
         ReversalLevelOrderTraversal reversalLevelOrderTraversal = new ReversalLevelOrderTraversal();
         List<List<Integer>> result = reversalLevelOrderTraversal.reverseTraversal(root);

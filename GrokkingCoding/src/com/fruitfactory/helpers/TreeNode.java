@@ -8,4 +8,9 @@ public class TreeNode {
     public TreeNode(int value) {
         this.value = value;
     }
+
+    public boolean IsLeaf(){
+        return left == null && right == null;
+    }
+
 }
