@@ -20,5 +20,8 @@ public class UniqueAbbreviationsTests {
 
 		assertNotNull(result);
 		assertTrue(result.size() > 0);
+
+		assertEquals("3", result.get(0));
+		assertEquals("BAT", result.get(result.size() - 1));
 	}
 }
