@@ -18,7 +18,7 @@ public class UniqueAbbreviationsTests {
 		UniqueAbbreviations abbr = new UniqueAbbreviations("BAT");
 		List<String> result = abbr.findGeneralizedAbbreviations();
 
-		assertNull(result);
+		assertNotNull(result);
 		assertTrue(result.size() > 0);
 	}
 }
