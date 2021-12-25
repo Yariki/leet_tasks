@@ -15,7 +15,7 @@ public class EvaluateExpression {
 
         List<Integer> result = new ArrayList<>();
 
-        if(!input.contains("+") && !input.contains("/") && !input.contains("*"))
+        if(!input.contains("+") && !input.contains("-") && !input.contains("*"))
         {
             result.add(Integer.parseInt(input));
         } else {
@@ -29,7 +29,7 @@ public class EvaluateExpression {
                             if(chr == '+'){
                                 result.add(part1 + part2);
                             } else if(chr == '-'){
-                                result.add(part1 = part2);
+                                result.add(part1 - part2);
                             } else if(chr == '*'){
                                 result.add(part1 * part2);
                             }
